@@ -10,6 +10,8 @@ Hints
 We would like to see some tests. A quick read to help you along the way
 We would expect it in any other language apart from elixir.
 
+## Assumptions
+Based on above mentioned nested objects all assumptions for key and object has been made.
 
 ## Solution 
 Python Script splits the keys and start parsing nested object accordingly. Read inline comments for explanation in script.
@@ -17,6 +19,9 @@ Python Script splits the keys and start parsing nested object accordingly. Read 
 Few inputs I have passed the function and response is - 
 
 ```
+
+# python3 getnestedobj.py
+
 Object Supplied: {'a': {'b': {'c': 'd'}}}
 Keys Supplied: a/b/c
 Split Keys = ['a', 'b', 'c']
